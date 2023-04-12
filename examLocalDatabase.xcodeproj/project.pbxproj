@@ -14,6 +14,14 @@
 		D3466CB22B436E7D0082D249 /* examLocalDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3466CB02B436E7D0082D249 /* examLocalDatabase.xcdatamodeld */; };
 		D3466CB42B436E7F0082D249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3466CB32B436E7F0082D249 /* Assets.xcassets */; };
 		D3466CB72B436E7F0082D249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3466CB52B436E7F0082D249 /* LaunchScreen.storyboard */; };
+		D3466CCA2B436E7F0082D249 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D3466CC02B436E7F0082D249 /* FMDatabase.m */; };
+		D3466CCB2B436E7F0082D249 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D3466CC32B436E7F0082D249 /* FMResultSet.m */; };
+		D3466CCC2B436E7F0082D249 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3466CC42B436E7F0082D249 /* FMDatabaseAdditions.m */; };
+		D3466CCD2B436E7F0082D249 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D3466CC62B436E7F0082D249 /* FMDatabaseQueue.m */; };
+		D3466CCE2B436E7F0082D249 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D3466CC72B436E7F0082D249 /* FMDatabasePool.m */; };
+		D3466CD02B436E7F0082D249 /* fmdbHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466CCF2B436E7F0082D249 /* fmdbHelper.swift */; };
+		D3466CD42B436E7F0082D249 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466CD32B436E7F0082D249 /* MyTableViewCell.swift */; };
+		D3466CD62B436E7F0082D249 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3466CD52B436E7F0082D249 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		D3466CB32B436E7F0082D249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3466CB62B436E7F0082D249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3466CB82B436E7F0082D249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3466CBE2B436E7F0082D249 /* examLocalDatabase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "examLocalDatabase-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3466CBF2B436E7F0082D249 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D3466CC02B436E7F0082D249 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D3466CC12B436E7F0082D249 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D3466CC22B436E7F0082D249 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D3466CC32B436E7F0082D249 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D3466CC42B436E7F0082D249 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D3466CC52B436E7F0082D249 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D3466CC62B436E7F0082D249 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D3466CC72B436E7F0082D249 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D3466CC82B436E7F0082D249 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D3466CC92B436E7F0082D249 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D3466CCF2B436E7F0082D249 /* fmdbHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fmdbHelper.swift; sourceTree = "<group>"; };
+		D3466CD32B436E7F0082D249 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D3466CD52B436E7F0082D249 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +84,26 @@
 				D3466CA72B436E7C0082D249 /* AppDelegate.swift */,
 				D3466CA92B436E7C0082D249 /* SceneDelegate.swift */,
 				D3466CAB2B436E7C0082D249 /* ViewController.swift */,
+				D3466CD32B436E7F0082D249 /* MyTableViewCell.swift */,
 				D3466CAD2B436E7D0082D249 /* Main.storyboard */,
+				D3466CD52B436E7F0082D249 /* ViewController2.swift */,
+				D3466CCF2B436E7F0082D249 /* fmdbHelper.swift */,
 				D3466CB32B436E7F0082D249 /* Assets.xcassets */,
 				D3466CB52B436E7F0082D249 /* LaunchScreen.storyboard */,
 				D3466CB82B436E7F0082D249 /* Info.plist */,
 				D3466CB02B436E7D0082D249 /* examLocalDatabase.xcdatamodeld */,
+				D3466CC12B436E7F0082D249 /* FMDatabase.h */,
+				D3466CC02B436E7F0082D249 /* FMDatabase.m */,
+				D3466CC92B436E7F0082D249 /* FMDatabaseAdditions.h */,
+				D3466CC42B436E7F0082D249 /* FMDatabaseAdditions.m */,
+				D3466CBF2B436E7F0082D249 /* FMDatabasePool.h */,
+				D3466CC72B436E7F0082D249 /* FMDatabasePool.m */,
+				D3466CC22B436E7F0082D249 /* FMDatabaseQueue.h */,
+				D3466CC62B436E7F0082D249 /* FMDatabaseQueue.m */,
+				D3466CC82B436E7F0082D249 /* FMDB.h */,
+				D3466CC52B436E7F0082D249 /* FMResultSet.h */,
+				D3466CC32B436E7F0082D249 /* FMResultSet.m */,
+				D3466CBE2B436E7F0082D249 /* examLocalDatabase-Bridging-Header.h */,
 			);
 			path = examLocalDatabase;
 			sourceTree = "<group>";
@@ -102,6 +140,7 @@
 				TargetAttributes = {
 					D3466CA32B436E7B0082D249 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -141,9 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3466CD02B436E7F0082D249 /* fmdbHelper.swift in Sources */,
+				D3466CCB2B436E7F0082D249 /* FMResultSet.m in Sources */,
+				D3466CCD2B436E7F0082D249 /* FMDatabaseQueue.m in Sources */,
+				D3466CD42B436E7F0082D249 /* MyTableViewCell.swift in Sources */,
 				D3466CAC2B436E7C0082D249 /* ViewController.swift in Sources */,
+				D3466CD62B436E7F0082D249 /* ViewController2.swift in Sources */,
 				D3466CB22B436E7D0082D249 /* examLocalDatabase.xcdatamodeld in Sources */,
+				D3466CCE2B436E7F0082D249 /* FMDatabasePool.m in Sources */,
 				D3466CA82B436E7C0082D249 /* AppDelegate.swift in Sources */,
+				D3466CCA2B436E7F0082D249 /* FMDatabase.m in Sources */,
+				D3466CCC2B436E7F0082D249 /* FMDatabaseAdditions.m in Sources */,
 				D3466CAA2B436E7C0082D249 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,6 +356,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.examLocalDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "examLocalDatabase/examLocalDatabase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,6 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rnw.examLocalDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "examLocalDatabase/examLocalDatabase-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
